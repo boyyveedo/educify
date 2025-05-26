@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Sarah John",
+        "title": "Lead Film Editor",
+        "location": "Los Angeles, CA",
+        "image": "https://randomuser.me/api/portraits/women/44.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Daniel Ojo",
+        "title": "Game Developer (Unity & C#)",
+        "location": "Austin, TX",
+        "image": "https://randomuser.me/api/portraits/men/32.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Ada Nduka",
+        "title": "VFX Artist",
+        "location": "New York, NY",
+        "image": "https://randomuser.me/api/portraits/women/12.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Chijioke Adebayo",
+        "title": "Sound Engineer",
+        "location": "Nashville, TN",
+        "image": "https://randomuser.me/api/portraits/men/24.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Ifeoma Eze",
+        "title": "Music Producer",
+        "location": "Atlanta, GA",
+        "image": "https://randomuser.me/api/portraits/women/5.jpg"
+    }
+]
