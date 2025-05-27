@@ -17,7 +17,7 @@ const TutorCard = ({ name, rating, reviews, hourlyRate, subject, avatar, locatio
     <div className="flex items-center justify-between mb-2">
       <div className="flex items-center">
         <h3 className="font-semibold text-lg text-gray-900">{name}</h3>
-        <CheckCircleIcon className="w-5 h-5 text-green-500" />
+        <CheckCircleIcon className="w-5 h-5 text-blue-500" />
       </div>
       <span className="font-semibold text-gray-900">${hourlyRate}/h</span>
     </div>
@@ -45,7 +45,7 @@ const Tutor = () => {
       hourlyRate: "14",
       subject: "Math Tutor",
       avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
-      location: "Online, Nigeria",
+      location: "Online, Canada",
     },
     {
       name: "Guy Hawkins",
@@ -54,25 +54,25 @@ const Tutor = () => {
       hourlyRate: "14",
       subject: "Math Tutor",
       avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
-      location: "Online, Nigeria",
+      location: "Online, Canada",
     },
     {
-      name: "Devon Lane",
+      name: "Tricia Rock",
       rating: "4.8",
       reviews: "3.3k",
       hourlyRate: "14",
       subject: "Math Tutor",
-      avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
-      location: "Online, Nigeria",
+      avatar: "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=150&h=150&fit=crop&crop=face",  
+      location: "Online, Canada",
     },
     {
-      name: "Guy Hawkins",
+      name: "Ann Martins",
       rating: "4.8",
       reviews: "3.3k",
       hourlyRate: "14",
       subject: "Math Tutor",
-      avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
-      location: "Online, Nigeria",
+      avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
+            location: "Online, Canada",
     },
     {
       name: "Guy Hawkins", 
@@ -81,7 +81,7 @@ const Tutor = () => {
       hourlyRate: "14",
       subject: "Math Tutor",
       avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
-      location: "Online, Nigeria",
+      location: "Online, Canada",
     },
   ];
 
