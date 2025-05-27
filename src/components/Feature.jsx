@@ -21,7 +21,7 @@ const iconMap = {
 };
 
 const FeatureCard = ({ icon: Icon, title, description }) => (
-  <div className="text-center p-6">
+  <div className="text-center p-6 " >
     <div className="mx-auto w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-4">
       <Icon className="w-8 h-8 text-blue-600" />
     </div>
@@ -75,7 +75,7 @@ const Feature = () => {
   ];
 
   return (
-    <section className="py-16 bg-gray-50">
+    <section className="py-16 bg-gradient-to-br from-blue-200 to-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">

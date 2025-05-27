@@ -30,22 +30,23 @@ const Header = () => (
           <a href="#" className="text-gray-700 hover:text-blue-600">How it works</a>
           <a href="#" className="text-gray-700 hover:text-blue-600">About us</a>
           <a href="#" className="text-gray-700 hover:text-blue-600">Blog</a>
-          <a href="#" className="text-white bg-blue-600 px-4 py-2 rounded-lg hover:bg-blue-700">Become a tutor</a>
+          <a href="#" className="text-white bg-blue-600 px-4 py-2 rounded-full hover:bg-blue-700">Become a tutor</a>
         </nav>
-
+ 
         <div className="flex items-center space-x-4">
           <span className="text-sm text-gray-600">📞 +1 855 355 5585</span>
           <div className="flex items-center space-x-2">
             <span className="text-sm">USD/EN</span>
-            <div className="w-8 h-8 bg-gray-200 rounded-full"></div>
-          </div>
+            <div className="w-8 h-8 bg-gray-200 rounded-full flex items-center justify-center">
+              <span className="text-xs">👤</span>
+            </div>          </div>
         </div>
       </div>
     </div>
 
     <div className="bg-gray-50 border-b">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex space-x-8 py-3 text-sm">
+        <div className="flex space-x-10 py-3 text-sm">
           <a href="#" className="text-gray-700 hover:text-blue-600 flex flex-col items-center">
             <CalculatorIcon className="w-4 h-4 mb-1" />
             <span>Math</span>
@@ -85,10 +86,12 @@ const Header = () => (
             <UserIcon className="w-4 h-4 mb-1" />
             <span>Psychology</span>
           </a>
-          <a href="#" className="bg-blue-600 text-white px-3 py-1 rounded-full flex flex-col items-center">
-            <span>Explore all Categories</span>
-            <ChevronDownIcon className="w-4 h-4 mt-0.5" />
-          </a>
+          <a href="#" className="bg-blue-600 text-white px-6 py-2 rounded-full flex items-center space-x-6 ">
+ <span>Explore all Categories</span>
+<svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="m19 9-7 7-7-7" />
+</svg>
+</a>
         </div>
       </div>
     </div>
